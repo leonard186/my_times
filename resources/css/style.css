@@ -68,7 +68,7 @@ header h1 {
   flex-direction: column;
 }
 
-.img.champagne{
+.champagne{
   background-image: url("../images/champagne.png");
 }
 
@@ -82,4 +82,19 @@ header h1 {
 
 .photographer {
   background-image: url("../images/photographer.png");
+}
+
+.img {
+  height: 300px;
+  background-size: cover;
+}
+
+.main_story{
+  display: flex;
+  flex-direction: column;
+}
+
+.substory {
+  display: flex;
+  flex-direction: column;
 }
