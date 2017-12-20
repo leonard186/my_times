@@ -1,6 +1,8 @@
 body{
   margin: 0;
 }
+/* header section*/
+
 
 header{
   font-family: Verdana;
@@ -12,7 +14,7 @@ header{
   height: 80px;
   border-bottom: 1px solid black;
   width: 100%;
-  position: fixed;
+  posi tion: fixed;
   z-index: 5;
 }
 
@@ -29,6 +31,11 @@ header nav span a{
   color: black;
 }
 
+header h1 {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
 .logo{
   color: MediumAquamarine;
   display: inline-flex;
@@ -37,7 +44,42 @@ header nav span a{
   margin-left: 30px;
 }
 
-header h1 {
-  margin-left: 15px;
-  font-size: 14px;
+/* main container section */
+
+.main {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img.champagne{
+  background-image: url("../images/champagne.png");
+}
+
+.girl {
+  background-image: url("../images/girl.png");
+}
+
+.cat {
+  background-image: url("../images/cat.png");
+}
+
+.photographer {
+  background-image: url("../images/photographer.png");
 }
