@@ -17,6 +17,7 @@ header{
   width: 100%;
   position: fixed;
   z-index: 5;
+  background-color: white;
 }
 
 header nav {
@@ -24,11 +25,12 @@ header nav {
   margin-right: 40px;
 
 }
-header nav span{
+
+.nav-link{
   margin: 0 15px;
 }
 
-header nav span a{
+.nav-link a{
   color: black;
 }
 
@@ -171,4 +173,32 @@ header h1 {
   border-bottom: 1px solid black;
   padding: 11px 20px;
 
+}
+
+/* Footer section */
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 78px;
+}
+
+.footer .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 25px;
+}
+
+.footer-nav {
+  display: inline-flex;
 }
