@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-size: 17px;
+  font-family: "Georgia", serif;
 }
 /* header section*/
 
@@ -27,7 +28,7 @@ header nav {
 }
 
 .nav-link{
-  margin: 0 15px;
+  padding: 20px 10px;;
 }
 
 .nav-link a{
@@ -35,7 +36,7 @@ header nav {
 }
 
 header h1 {
-  margin-left: 15px;
+  margin-left: 12px;
   font-size: 14px;
 }
 
@@ -52,10 +53,10 @@ header h1 {
 .main {
   display: flex;
   width: 100%;
-  padding-top: 120px;
-  justify-content: space-around;
-  width: 1250px;
-  margin: 0 auto;
+  padding-top: 116px;
+  justify-co ntent: space-around;
+  width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
 .story {
@@ -92,17 +93,24 @@ header h1 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  height: 250px;
 }
 
-/* Large column style section */
-.column.large {
-  width: 630px;
+.column {
+  margin-right: 32px;
   display: flex;
   flex-direction: column;
 }
 
+/* Large column style section */
+
+.column.large {
+  width: 630px;
+}
+
 .champagne{
   background-image: url("../images/champagne.png");
+  width: 630px;
 }
 
 .girl {
@@ -121,15 +129,29 @@ header h1 {
   width: 100%;
 }
 
+.main_story p {
+  margin-top: 16px;
+}
+
 .sub_story{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 17px;
+}
+
+.sub_story p {
+  margin-top: 16px;
+}
+
+.sub_story .img {
+  margin-top: 15px;
 }
 
 .main_story .headline {
   margin-left: 20px;
   font-size: 40px;
+  text-align: left;
 }
 
 .main h2 {
@@ -140,21 +162,22 @@ header h1 {
 /* Medium column style section */
 .column.medium {
   width: 300px;
-  display: flex;
-  flex-direction: column;
 }
 
 .cat {
   background-image: url("../images/cat.png");
 }
 
+.story p {
+  margin-top: 16px;
+}
 
+.story .img {
+  margin-top: 15px;
+}
 /* Small column style section */
 .column.small {
   width: 240px;
-  display: flex;
-  flex-direction: column;
-
 }
 
 .news_bites h3 {
@@ -162,6 +185,7 @@ header h1 {
   font-weight: bold;
   display: block;
   text-align: center;
+  margin: 16px 0px 41px 0px;
 }
 
 .news_bites .link {
@@ -187,7 +211,6 @@ header h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 78px;
 }
 
 .footer .title {
@@ -195,8 +218,9 @@ header h1 {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  border-right: 1px solid white;
+  border-right: 2px solid white;
   padding-right: 25px;
+  margin-right: 25px;
 }
 
 .footer-nav {
